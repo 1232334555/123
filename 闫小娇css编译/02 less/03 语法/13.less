@@ -1,0 +1,30 @@
+@c:hsla(103,50%,50%,.5);
+div{
+    height: 50px;
+    margin-bottom: 30px;
+    border: 1px solid #000;
+}
+.box1{
+    background-color: @c;
+}
+.box2{
+    background-color: saturate(@c,50%);
+}
+.box3{
+    background-color:desaturate(@c,30%);
+}
+.box4{
+    background-color: lighten(@c,30%);
+}
+.box5{
+    background-color: darken(@c,30%);
+}
+.box6{
+    background-color: fadein(@c,30%);
+}
+.box7{
+    background-color: fadeout(@c,30%);
+}
+.box8{
+    background-color: fade(@c,30%);
+}

@@ -1,0 +1,14 @@
+// 通过宽度和高度的变量，调节编译的结果
+@w:200;
+@h:200;
+.box1 when (@w < 200){
+    background-color: pink;
+}
+.box1 when not (@w < 200){
+    background-color: purple;
+}
+.box2 when (@w > 100)and(@h > 100){
+    width: 200px;
+    height: 200px;
+    color: royalblue;
+}

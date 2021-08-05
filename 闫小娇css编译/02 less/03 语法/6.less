@@ -1,0 +1,21 @@
+// 放法
+.demo(@color,@bgcolor:rgb(55,192,27),@fs:50px){
+    width: 400px;
+    height: 400px;
+    color: @color;
+    background-color: @bgcolor;
+    font-size: @fs;
+}
+
+// 使用
+.box{
+    .demo(red,orange,30px);
+    line-height: 50px;
+}
+.xxoo{
+    .demo(purple,pink,20px);
+
+}
+h1{
+    .demo(blue)
+}

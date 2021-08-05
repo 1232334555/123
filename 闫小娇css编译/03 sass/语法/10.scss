@@ -1,0 +1,11 @@
+@mixin xxoo($w,$h:400px){
+    width: $w;
+    height: $h;
+    background-color: if($w < 400px,orange,purple);
+}
+.box1{
+    @include xxoo(300px)
+}
+.box1{
+    @include xxoo(500px)
+}

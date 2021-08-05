@@ -1,0 +1,15 @@
+.box {
+  width: 400px;
+  height: 400px;
+  color: red;
+  background-color: orange;
+  font-size: 30px;
+  line-height: 50px;
+}
+.xxoo {
+  width: 400px;
+  height: 400px;
+  color: purple;
+  background-color: pink;
+  font-size: 20px;
+}

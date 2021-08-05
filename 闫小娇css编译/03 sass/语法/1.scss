@@ -1,0 +1,10 @@
+.box1{
+    width: 300px;
+    .box2{
+        width: 200px;
+    }
+    &:after {
+        content: '';
+        display: block;
+    }
+}

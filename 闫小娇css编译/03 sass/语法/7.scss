@@ -1,0 +1,9 @@
+@mixin xxoo($w,$h:400){
+    width: $w;
+    height: $h;
+    color: crimson;
+}
+div{
+    border-color: darkgoldenrod;
+    @include xxoo(200px);
+}

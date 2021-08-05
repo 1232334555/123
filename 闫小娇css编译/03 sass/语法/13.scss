@@ -1,0 +1,8 @@
+$list: red green cyan blue purple orange skyblue pink;
+$i:1;
+@each $color in $list {
+    .box#{$i}{
+        background-color:$color;
+    }
+    $i:$i + 1;
+}

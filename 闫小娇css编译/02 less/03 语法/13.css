@@ -1,0 +1,29 @@
+div {
+  height: 50px;
+  margin-bottom: 30px;
+  border: 1px solid #000;
+}
+.box1 {
+  background-color: hsla(103, 50%, 50%, 0.5);
+}
+.box2 {
+  background-color: hsla(103, 100%, 50%, 0.5);
+}
+.box3 {
+  background-color: hsla(103, 20%, 50%, 0.5);
+}
+.box4 {
+  background-color: hsla(103, 50%, 80%, 0.5);
+}
+.box5 {
+  background-color: hsla(103, 50%, 20%, 0.5);
+}
+.box6 {
+  background-color: hsla(103, 50%, 50%, 0.8);
+}
+.box7 {
+  background-color: hsla(103, 50%, 50%, 0.2);
+}
+.box8 {
+  background-color: hsla(103, 50%, 50%, 0.3);
+}

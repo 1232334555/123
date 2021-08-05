@@ -1,0 +1,22 @@
+.box {
+  width: 400px;
+  height: 400px;
+  color: red;
+  background-color: orange;
+  font-size: 30px;
+  line-height: 50px;
+}
+.xxoo {
+  width: 400px;
+  height: 400px;
+  color: purple;
+  background-color: pink;
+  font-size: 20px;
+}
+h1 {
+  width: 400px;
+  height: 400px;
+  color: blue;
+  background-color: #37c01b;
+  font-size: 50px;
+}

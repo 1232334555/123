@@ -1,0 +1,8 @@
+.box {
+  background-color: orange;
+  color: #f32;
+}
+.box:hover {
+  background-color: #f32;
+  color: orange;
+}

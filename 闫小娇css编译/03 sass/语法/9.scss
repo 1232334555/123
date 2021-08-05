@@ -1,0 +1,20 @@
+@mixin xxoo($w,$h:400px){
+    width: $w;
+    height: $h;
+    @if($w < 200px){
+        background-color: darksalmon;
+    }@else if($w < 400px){
+        background-color: darkseagreen;
+    }@else{
+        background-color:purple;
+    }
+}
+div{
+    @include xxoo(200px);
+}
+.box1{
+    @include xxoo(100px);
+}
+.box2{
+    @include xxoo(500px);
+}

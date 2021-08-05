@@ -1,0 +1,5 @@
+$c:color;
+$bg:red;
+div-#{$c}{
+    background-#{$c}:$bg;
+}
